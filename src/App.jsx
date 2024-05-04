@@ -18,7 +18,7 @@ function App() {
   }, [])
 
 
-    return <div className="container my-2">
+    return <div className="container">
       <Counter />
   </div>
 }
