@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Card } from "../card";
-const textStyle = {fontSize: '120px', marginTop: '15%', marginLeft: '45%', 
+const textStyle = {fontSize: '120px', marginTop: '45%', marginLeft: '42.5%', 
                    fontFamily: 'Trebuchet MS', color: 'white',
                 }
 
@@ -19,7 +19,7 @@ export function Counter() {
         }
     }, [count])
 
-    return <div>
+    return <div className="container my-3">
         {PCounter}
         {count == null && <Card />}
     </div>
