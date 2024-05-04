@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Card } from "../card";
-const textStyle = {fontSize: '100px', 
+const textStyle = {fontSize: '90px', 
                    fontFamily: 'Trebuchet MS', color: 'white',
                 }
 
