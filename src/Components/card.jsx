@@ -3,7 +3,7 @@ import { Para } from "./Page/Paragraphe";
 import './Page/ddd.css';
 
 export function Card() {
-    return <div class="card text-center container class my-5">
+    return <div class="card text-center class">
     <div className="card-header">
       To Aichata Coulibaly
     </div>
