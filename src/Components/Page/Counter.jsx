@@ -19,7 +19,7 @@ export function Counter() {
         }
     }, [count])
 
-    return <div className="container my-3">
+    return <div>
         {PCounter}
         {count == null && <Card />}
     </div>
